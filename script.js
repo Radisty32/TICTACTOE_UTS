@@ -36,3 +36,19 @@ let winconditions = [
     [1, 4, 7], 
     [2, 5, 8]
 ];
+
+// Mengecek kondisi kemenangan
+function checkwinner() {
+    for (let win of winconditions) {
+        let pos1val = btns[win[0]].innerText;
+        let pos2val = btns[win[1]].innerText;
+        let pos3val = btns[win[2]].innerText;
+
+        if (pos1val !== "" && pos1val === pos2val && pos1val === pos3val) {
+            turntext.innerText = `${pos1val} wins!`;
+            disableButtons();
+            validateWinner(pos1val); // Memanggil validasi pemenang di PHP
+            break;
+        }
+    }
+}
