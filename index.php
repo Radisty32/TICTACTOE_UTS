@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="container">
+        <h1>TIK TAK TOE</h1>
+        <h1 id="turntext">TURN FOR O</h1>
+        <div class="gamecontainer">
+            
+        </div>
 </body>
 </html>
