@@ -21,5 +21,9 @@
             <button class="btn btn8"></button>
             <button class="btn btn9"></button>
         </div>
+        <button id="resetbtn">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
