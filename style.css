@@ -23,3 +23,11 @@ body {
     flex-wrap: wrap;
     border: none;
 }
+
+.btn {
+    background: white;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 60px;
+}
