@@ -67,3 +67,13 @@ body {
     border-bottom: 0;
     border-right: 0;
 }
+
+#resetbtn {
+    height: 50px;
+    width: 150px;
+    background: red;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+}
