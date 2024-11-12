@@ -11,7 +11,15 @@
         <h1>TIK TAK TOE</h1>
         <h1 id="turntext">TURN FOR O</h1>
         <div class="gamecontainer">
-            
+        <button class="btn btn1"></button>
+            <button class="btn btn2"></button>
+            <button class="btn btn3"></button>
+            <button class="btn btn4"></button>
+            <button class="btn btn5"></button>
+            <button class="btn btn6"></button>
+            <button class="btn btn7"></button>
+            <button class="btn btn8"></button>
+            <button class="btn btn9"></button>
         </div>
 </body>
 </html>
