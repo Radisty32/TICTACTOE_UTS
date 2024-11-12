@@ -52,3 +52,8 @@ function checkwinner() {
         }
     }
 }
+function disableButtons() {
+    btns.forEach((button) => {
+        button.disabled = true;
+    });
+}
