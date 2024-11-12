@@ -6,3 +6,20 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gamecontainer {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: none;
+}
