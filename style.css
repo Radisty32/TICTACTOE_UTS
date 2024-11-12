@@ -31,3 +31,39 @@ body {
     border: 2px solid black;
     font-size: 60px;
 }
+
+.btn1 {
+    border-top: 0;
+    border-left: 0;
+}
+
+.btn2 {
+    border-top: 0;
+}
+
+.btn3 {
+    border-top: 0;
+    border-right: 0;
+}
+
+.btn4 {
+    border-left: 0;
+}
+
+.btn6 {
+    border-right: 0;
+}
+
+.btn7 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.btn8 {
+    border-bottom: 0;
+}
+
+.btn9 {
+    border-bottom: 0;
+    border-right: 0;
+}
