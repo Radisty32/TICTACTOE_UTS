@@ -57,3 +57,23 @@ function disableButtons() {
         button.disabled = true;
     });
 }
+
+// Fungsi untuk validasi pemenang di server
+function validateWinner(winner) {
+    fetch('validate_winner.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: `winner=${winner}`
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === "success") {
+            alert(data.message);
+        } else {
+            console.error("Error:", data.message);
+        }
+    })
+    .catch(error => console.error("Error:", error));
+}
